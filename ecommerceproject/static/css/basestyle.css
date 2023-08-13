@@ -1,0 +1,114 @@
+body{
+font-family:font-family: 'Roboto', sans-serif;
+}
+
+.card-mec{
+border:2px solid #d7d7d7;
+border-radius:2px;
+align-items:center;
+text-align:center;
+padding:30px 10px 10px 10px;
+height:350px;
+margin:20px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-mec-image{
+margin:15px;
+
+}
+
+.inside-container{
+width:95%;
+margin:auto;
+}
+
+
+.nav-item{
+letter-spacing:.2em;
+font-family:font-family: 'Roboto', sans-serif;
+font-size:14px;
+text-transform:uppercase;
+}
+
+.dropdown-item{
+letter-spacing:.2rem;
+font-size:14px;
+font-family:font-family: 'Roboto', sans-serif;
+text-transform:uppercase;
+}
+
+.my_footer p{
+padding-top:20px;
+text-align:center;
+font-size:14px;
+}
+.my_footer{
+background-color:#f2f2f3;
+height:100px;
+text-align:center;
+}
+
+.bannerImg{
+padding:2% 2%;
+margin:5px;
+margin:auto;
+}
+
+.nav-item img{
+margin:20px;
+}
+.nav-item{
+margin:auto auto;
+}
+
+.product_desc{
+width:80%;
+margin:auto;
+
+}
+
+.product_head{
+text-align:center;
+padding-top:10px;
+margin-bottom:25px;
+}
+
+.last-button{
+margin:20px;
+}
+
+.header-logo{
+margin-top:20px;
+}
+
+.imagealign{
+margin:auto auto;
+text-align:center;
+}
+
+.product_head a{
+text-decoration:none;
+}
+
+.col-4 a{
+  text-decoration: none!important;
+  color:black!important;
+}
+
+.product_preview{
+width:90%;
+margin:20px;
+padding:20px;
+}
+
+.outerBox{
+margin-top:30px;
+}
+
+.custom_image{
+width:100px;
+height:100px;
+}
+
+##-----------

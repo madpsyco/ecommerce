@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12"></div>
+            <div class="col-md-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="text-center custom-login">
+                    <h3>Registration</h3>
+                </div>
+                <br>
+                <div class="hpanel">
+                    <div class="panel-body">
+                        <form action="/credentials/register/" method ="POST">
+                            {% csrf_token %}
+                            <div class="row">
+                                <div class="form-group col-lg-12">
+                                    <label>Username</label>
+                                    <input type="text" name="username" class="form-control">
+                                </div>
+                                <div class="form-group col-lg-6">
+                                    <label> Name</label>
+                                    <input type="text" name="firstname" class="form-control">
+                                </div>
+                                <div class="form-group col-lg-6">
+                                    <label>Email Address</label>
+                                    <input type="email" name="email" class="form-control">
+                                </div>
+                                <div class="form-group col-lg-6">
+                                    <label>Password</label>
+                                    <input type="password" name="password" class="form-control">
+                                </div>
+                                <div class="form-group col-lg-6">
+                                    <label>Repeat Password</label>
+                                    <input type="password"name="cpassword" class="form-control ">
+                                </div>
+                                <div class="checkbox col-lg-12">
+                                    <input type="checkbox" class="i-checks" checked> Remember me.
+                                </div>
+                            </div>
+                            <br><br>
+                            <div class="text-center">
+                                <a><input value="Register" type="submit" class="btn btn-info"/> </a>&nbsp;&nbsp;
+                                <a class="btn btn-info" href="/credentials/login">Login</a>
+
+                            </div>
+                        </form>
+                        <br><br>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12"></div>
+        </div>
+    </div>
+{% endblock %}
